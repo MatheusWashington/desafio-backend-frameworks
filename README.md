@@ -44,6 +44,7 @@ Responsável por receber as requisições e retornar respostas.
 
 ### Router/Service
 Node.js -> utiliza routes para direcionar as requisições
+
 Spring Boot -> pode utilizar camada de service para lógica de negócio
 
 ---
@@ -71,12 +72,15 @@ Spring Boot -> pode utilizar camada de service para lógica de negócio
 
 - Mais verboso
 - Configuração inicial mais complexa
+
 ---
 ## Conclusão
 ---
+
 Ambos os frameworks são eficientes para desenvolvimento back-end, porém possuem propostas diferentes:
 
 Node.js/Express → mais simples e rápido para começar
+
 Spring Boot → mais robusto e indicado para sistemas maiores
 
 ---
