@@ -6,10 +6,11 @@ Este repositório foi desenvolvido como parte de uma atividade prática com o ob
 
 O projeto contém duas implementações distintas:
 
-node-express → utilizando Node.js com Express
-java-springboot → utilizando Java com Spring Boot
+node-express -> utilizando Node.js com Express
+java-springboot-> utilizando Java com Spring Boot
+
 ---
-## Estrutura do Projeto
+##Estrutura do Projeto
 ---
 desafio-backend-frameworks/
 │
@@ -25,6 +26,7 @@ desafio-backend-frameworks/
 │       └── service/
 │
 └── README.md
+
 ---
 ## Arquitetura Utilizada (MVC)
 ---
@@ -33,17 +35,17 @@ A arquitetura utilizada foi a Model-View-Controller (MVC).
 ### Model
 Responsável pela representação dos dados da aplicação.
 
-UserModel
+`UserModel`
 
 ### Controller
 Responsável por receber as requisições e retornar respostas.
 
-UserController
+`UserController`
 
-### Routes / Service
+### Router/Service
+Node.js -> utiliza routes para direcionar as requisições
+Spring Boot -> pode utilizar camada de service para lógica de negócio
 
-Node.js → utiliza routes para direcionar as requisições
-Spring Boot → pode utilizar camada de service para lógica de negócio
 ---
 ## Comparação entre Frameworks
 ---
@@ -76,16 +78,22 @@ Ambos os frameworks são eficientes para desenvolvimento back-end, porém possue
 
 Node.js/Express → mais simples e rápido para começar
 Spring Boot → mais robusto e indicado para sistemas maiores
+
 ---
 ## Tecnologias Utilizadas
+---
+
 Node.js
 Express
 Java
 Spring Boot
+
 ---
 ## Repositório
 ---
+
 https://github.com/MatheusWashington/desafio-backend-frameworks
+
 ---
 ## Autor
 ---
